@@ -23,4 +23,5 @@ def get_english_meaning
   # code goes here
 end
 
-puts load_library
+
+puts load_library("./lib/emoticons.yml")
