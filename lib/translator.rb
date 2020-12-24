@@ -2,9 +2,9 @@
 require 'yaml'
 require 'pry'
 
-def load_library("./lib/emoticons.yml")
+def load_library(link)
   # code goes here
-  code = YAML.load_file("./lib/emoticons.yml")
+  code = YAML.load_file(link)
   result = {}
   code.each do |key, emoji|
     if !result[key]
