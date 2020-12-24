@@ -35,12 +35,22 @@ def get_japanese_emoticon(link, e_emoji)
   message
 end
 
-def get_english_meaning(link, emoji)
+def get_english_meaning(link, j_emoji)
   # load the YAML with load_library
   temp_hash = load_library(link)
   
   # return the English meaning of the Japanese emoji otherwise Sorry, that emoticon was not found"
-  
+    message = "Sorry, that emoticon was not found"
+  temp_hash.each { |key, content|
+    content.each { |language, emoji|
+    #binding.pry
+      if :japanese == language && j_emoji == emoji
+        #binding.pry
+        message = key
+      end
+    }
+  }
+  message
 end
 
 
