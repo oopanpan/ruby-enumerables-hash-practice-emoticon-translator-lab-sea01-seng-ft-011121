@@ -26,8 +26,6 @@ def get_japanese_emoticon(link, e_emoji)
     content.each { |language, emoji|
       if :english == language && e_emoji == emoji
         temp_hash[key][:japanese]
-      else
-        puts "Sorry, that emoticon was not found"
       end
     }
   }
