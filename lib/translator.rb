@@ -24,9 +24,9 @@ def get_japanese_emoticon(link, e_emoji)
   # output the japanese one, otherwise "Sorry, that emoticon was not found"
   temp_hash.each { |key, content|
     content.each { |language, emoji|
-    binding.pry
+    #binding.pry
       if :english == language && e_emoji == emoji
-        binding.pry
+        #binding.pry
         return temp_hash[key][:japanese]
       end
     }
