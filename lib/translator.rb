@@ -29,8 +29,8 @@ def get_japanese_emoticon(link, e_emoji)
       else
         puts "Sorry, that emoticon was not found"
       end
-    end
-  end
+    }
+  }
   
 end
 
