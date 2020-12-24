@@ -15,14 +15,14 @@ def load_library(link)
   result
 end
 
-def get_japanese_emoticon(link, j_emoji)
+def get_japanese_emoticon(link, e_emoji)
   # get the sorted yaml file
   temp_hash = load_library(link)
   
   binding.pry
-  # compare input emoji to the japanese collection
-  # output the english one, otherwise "Sorry, that emoticon was not found"
-  
+  # compare input emoji to the english collection
+  # output the japanese one, otherwise "Sorry, that emoticon was not found"
+  temp_hash.
   
 end
 
