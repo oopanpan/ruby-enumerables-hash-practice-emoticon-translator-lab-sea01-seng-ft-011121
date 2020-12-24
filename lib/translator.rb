@@ -35,7 +35,7 @@ def get_japanese_emoticon(link, e_emoji)
   message
 end
 
-def get_english_meaning
+def get_english_meaning(link, emoji)
   # code goes here
 end
 
