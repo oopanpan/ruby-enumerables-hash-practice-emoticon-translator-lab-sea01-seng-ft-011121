@@ -11,7 +11,7 @@ def load_library
       result[key] = {:english => emoji[0], :japanese => emoji[1] }
     end
   end
-  binding.pry
+  #binding.pry
   result
 end
 
