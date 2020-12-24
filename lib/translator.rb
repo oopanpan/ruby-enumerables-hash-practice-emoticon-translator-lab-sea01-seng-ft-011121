@@ -15,8 +15,11 @@ def load_library(link)
   result
 end
 
-def get_japanese_emoticon(link, emoji)
-  # code goes here
+def get_japanese_emoticon(link, j_emoji)
+  # get the yaml file
+  code = YAML.load_file(link)
+  # compare input emoji to the japanese collection
+  # output the english one, otherwise "Sorry"
   
 end
 
