@@ -22,7 +22,15 @@ def get_japanese_emoticon(link, e_emoji)
   binding.pry
   # compare input emoji to the english collection
   # output the japanese one, otherwise "Sorry, that emoticon was not found"
-  temp_hash.
+  temp_hash.each { |key, content|
+    content.each { |language, emoji|
+      if :english == language && e_emoji == emoji
+        temp_hash[key][:japanese]
+      else
+        puts "Sorry, that emoticon was not found"
+      end
+    end
+  end
   
 end
 
