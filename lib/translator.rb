@@ -15,8 +15,9 @@ def load_library(link)
   result
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(link, emoji)
   # code goes here
+  
 end
 
 def get_english_meaning
