@@ -30,4 +30,4 @@ end
 
 
 #puts load_library("./lib/emoticons.yml")
-get_english_meaning
+get_japanese_emoticon
