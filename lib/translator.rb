@@ -40,4 +40,4 @@ end
 
 
 #puts load_library("./lib/emoticons.yml")
-get_japanese_emoticon("./lib/emoticons.yml",":)")
+#get_japanese_emoticon("./lib/emoticons.yml",":)")
