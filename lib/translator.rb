@@ -25,7 +25,7 @@ def get_japanese_emoticon(link, e_emoji)
   temp_hash.each { |key, content|
     content.each { |language, emoji|
       if :english == language && e_emoji == emoji
-        temp_hash[key][:japanese]
+        return temp_hash[key][:japanese]
       end
     }
   }
