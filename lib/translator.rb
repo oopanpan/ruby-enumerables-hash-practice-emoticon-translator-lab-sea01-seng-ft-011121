@@ -37,7 +37,10 @@ end
 
 def get_english_meaning(link, emoji)
   # load the YAML with load_library
-  # return the English meaning of the Japanese emoji otherwise ""Sorry, that emoticon was not found""
+  temp_hash = load_library(link)
+  
+  # return the English meaning of the Japanese emoji otherwise Sorry, that emoticon was not found"
+  
 end
 
 
