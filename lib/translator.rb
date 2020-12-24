@@ -2,9 +2,9 @@
 require 'yaml'
 require 'pry'
 
-def load_library()
+def load_library
   # code goes here
-  code = YAML.load_file(path)
+  code = YAML.load_file
   result = {}
   code.each do |key, emoji|
     if !result[key]
