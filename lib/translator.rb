@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library("./lib/emoticons.yml")
   # code goes here
-  code = YAML.load_file(link)
+  code = YAML.load_file("./lib/emoticons.yml")
   result = {}
   code.each do |key, emoji|
     if !result[key]
@@ -24,4 +24,4 @@ def get_english_meaning
 end
 
 
-puts load_library("./lib/emoticons.yml")
+#puts load_library("./lib/emoticons.yml")
