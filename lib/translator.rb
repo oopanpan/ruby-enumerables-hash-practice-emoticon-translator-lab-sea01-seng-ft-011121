@@ -4,7 +4,7 @@ require 'pry'
 
 def load_library
   # code goes here
-  code = YAML.load_file("./lib/emoticons.yml")
+  code = YAML.load_file("emoticons.yml")
   result = {}
   code.each do |key, emoji|
     if !result[key]
