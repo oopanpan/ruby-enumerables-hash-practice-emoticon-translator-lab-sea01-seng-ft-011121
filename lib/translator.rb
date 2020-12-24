@@ -18,6 +18,7 @@ end
 def get_japanese_emoticon(link, j_emoji)
   # get the yaml file
   code = YAML.load_file(link)
+  binding.pry
   # compare input emoji to the japanese collection
   # output the english one, otherwise "Sorry"
   
@@ -29,3 +30,4 @@ end
 
 
 #puts load_library("./lib/emoticons.yml")
+get_english_meaning
