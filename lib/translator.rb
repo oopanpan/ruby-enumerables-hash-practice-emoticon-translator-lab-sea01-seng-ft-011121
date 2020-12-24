@@ -18,7 +18,7 @@ end
 def get_japanese_emoticon(link, j_emoji)
   # get the yaml file
   code = YAML.load_file(link)
-  binding.pry
+  #binding.pry
   # compare input emoji to the japanese collection
   # output the english one, otherwise "Sorry"
   
