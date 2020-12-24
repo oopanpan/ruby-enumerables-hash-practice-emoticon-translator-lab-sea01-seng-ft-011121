@@ -2,7 +2,7 @@
 require 'yaml'
 require 'pry'
 
-def load_library(path)
+def load_library()
   # code goes here
   code = YAML.load_file(path)
   result = {}
