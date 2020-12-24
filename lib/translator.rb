@@ -27,8 +27,6 @@ def get_japanese_emoticon(link, e_emoji)
       if :english == language && e_emoji == emoji
         binding.pry
         return temp_hash[key][:japanese]
-      else
-        puts "Sorry, that emoticon was not found"
       end
     }
   }
